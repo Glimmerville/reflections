@@ -1,0 +1,94 @@
+Question:
+How did viewing a diff between two versions of a file 
+help you see the bug that was introduced?
+
+Answer:
+It was very simple to do it this way, but it still
+required/allowed human thought processes 
+to search for the typo myself.
+I not only found the typo, I learned a little bit
+about the other changes that were made to the documment,
+and how the one change to "enter/space" caused
+other changes that needed to be carried through
+the program.
+I think this also proves why it's good practice
+to make lots of comments in your code.
+
+Question:
+How could having easy access to the entire history 
+of a file make you a more efficient programmer 
+in the long term?
+
+Answer:
+I perpetually save tons of copies of documents.
+This is especially important with art;
+I want to make sure I copy my changes
+and make a new Photoshop layer to implement
+them on before saving over something.
+It's wonderful to have UNDO.
+But if you don't have an intuitive naming
+convention, it makes it hard to navigate
+or hard to determine which of your previous
+versions are worth saving.
+If this system allows you to always keep
+EVERY version of your document without
+any space constraints, that could be great.
+I would still think you need to make good
+notes between versions so that you can tell
+which things were changed, in case you need
+to find "that one file maybe three or four
+revisions back".
+
+Question:
+What do you think are the pros and cons of manually choosing when 
+to create a commit, like you do in Git, vs having versions 
+automatically saved, like Google docs does?
+
+Answer:
+Honestly, I still like the idea of software making
+automatic backups when you forget to backup.
+I understand why this may not be ideal, but I also
+know from experience that I will hit "save" on a document
+either much too often, or remember immediately after 
+it is too late. Putting the onus on me to do my own
+saving is as it has always been, really, because the
+automatic saving in Google Docs may be happening in the
+background but I don't rely on it. 
+I don't know how I feel about Git tracking every time
+I make a save, and making a record for anyone to see.
+
+Question:
+Why do you think some version control systems, like Git, 
+allow saving multiple files in one commit, while others, 
+like Google Docs, treat each file separately?
+
+Answer:
+I find this to be a fantastic idea, being able to
+know that the entire directory was saved at once
+is great for all the reasons just discussed.
+I have made copies of directories like this onto a flash drive.
+In something like FrameMaker, where each book chapter
+is a separate interconnected file (I use this as an
+example because I am highly familiar with 
+trying to open and save each document), saving them all at 
+once works well too. But in something like Google Docs, where
+your project likely only spans one document,
+it wouldn't make sense to make a snapshot of a bunch
+of things that weren't updated.
+It wouldn't generally make much sense in Photoshop either.
+(Though a batch file could open, perform a function, and save
+all your files, should you need it to.)
+
+Question:
+How can you use the commands git log and 
+git diff to view the history of files?
+
+Answer:
+I'm having some real trouble copying and pasting
+in the Git window, in my version of Windows.
+But, it really all comes down to whether someone
+did a good job of leaving "commit messages"
+so that I know which of these commits contains
+the information I am after. Searching all of them
+for one change that wasn't well documented would
+be really miserable.
