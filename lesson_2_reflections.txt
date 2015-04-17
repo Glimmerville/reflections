@@ -1,0 +1,25 @@
+Question:
+What happens when you initialize a repository? 
+Why do you need to do it?
+
+Answer:
+It sets up all the secret files in the background
+that prepare Git to track your repository.
+
+How is the staging area different from the 
+working directory and the repository? 
+What value do you think it offers?
+
+Answer:
+I wouldn't think it gives much value, except for
+the fact that you can see what you have staged
+in "Status" before you actually "commit" - and that
+could be really useful, to be able to tell exactly
+what will happen when you hit that button. 
+But I wonder how you remove a file?
+Looks like removing a file is trivial with the GUI.
+Superuser.com says you can "--amend" maybe.
+It seems rather complicated.
+Oh it says:
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
