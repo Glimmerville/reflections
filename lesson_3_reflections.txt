@@ -1,0 +1,6 @@
+Question:
+When would you want to use a remote repository rather than keeping all your work local?
+
+Answer:
+When you are working in more than one location, for one thing. It is better
+than hauling a flash drive around, though it is basically "cloud storage".
