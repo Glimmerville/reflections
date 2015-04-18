@@ -23,3 +23,59 @@ It seems rather complicated.
 Oh it says:
 Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
+  
+Question: 
+  How can you use the staging area to make sure 
+  you have one commit per logical change?
+  
+Answer:
+  You can check to see what changes are
+  in process using "git diff" on the blobs.
+
+Question:
+What are some situations when branches 
+would be helpful in keeping your history 
+organized? How would branches help?  
+
+Answer: 
+I don't know about making it organized,
+but it gives you the freedom to try stuff,
+and discard it without affecting the master.
+I am still not entirely sure that this
+is easier for me than making two folders,
+but for someone ELSE using my directory
+this would certainly be easier. Especially if
+you are sure to make good messages on your commits.
+
+Question:
+How do the diagrams help you visualize the branch structure?
+Answer:
+Well they let you know where things diverge (and become branches).
+
+Question:
+What is the result of merging two branches together? 
+Why do we represent it in the diagram the way we do?
+
+Answer:
+It combines files and shows you at which point which
+changes were made. I can see how this would quickly
+become cumbersome. Again a lot of this comes down
+to humans leaving good notes for themselves to remind
+why they did a merge/branch/etc what changed.
+
+Question:
+What are the pros and cons of Git’s automatic 
+merging vs. always doing merges manually?
+
+Answer:
+The pros are that you can see a conflict,
+and decide whether/how to resolve it.
+It gives you much more security when two people
+are working on a file at the same time, but you can
+still manually make sure you don't blow someone
+else's changes away.
+The con is that you have to go line by line
+through the changes and determine what to do.
+
+
+	
